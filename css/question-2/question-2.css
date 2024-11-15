@@ -1,0 +1,36 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+
+.first-letter::first-letter {
+    font-size: 2em;
+    color: green;
+}
+
+
+.first-line::first-line {
+    font-weight: bold;
+    color: blue;
+}
+
+
+.before-after::before {
+    content: "Before: ";
+    font-weight: bold;
+    color: orange;
+}
+
+.before-after::after {
+    content: " After.";
+    font-weight: bold;
+    color: purple; 
+}
+
+
+.selection::selection {
+    background-color: yellow;
+    color: red;
+}
